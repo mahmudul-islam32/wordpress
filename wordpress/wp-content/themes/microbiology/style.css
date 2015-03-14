@@ -1,0 +1,188 @@
+body{}
+
+.header{background: #00142B}
+.headermain h1{color: #fffefe;
+margin-bottom: 20px;
+margin-left: 50px;
+margin-top: 10px;font-size: 40px;font-family: icon}
+.headermain img{margin-bottom: -49px;
+margin-left: -74px;
+margin-top: 20px;
+vertical-align: middle;
+width: 65px;}
+.headerside{margin-left: 129px;
+margin-top: 47px;
+width: 233px;}
+
+.mainmenu{background: none repeat scroll 0 0  #222222;box-sizing: border-box;padding-bottom: 5px
+}
+#cssmenu{height: 30px;margin: 0 0 10px;z-index: 6;font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  width: auto;}
+#cssmenu ul{margin: 0;padding: 0}
+#cssmenu li{display: block;
+float: left;
+height: 30px;
+line-height: 29px;
+margin: 6px;
+padding: 3px;
+position: relative;}
+#cssmenu li a{display: block;
+height: 36px;
+line-height: 30px;
+padding: 0 20px;
+text-decoration: none;
+    font-weight:500;
+    font-size: 17px;
+    color: #BDBAB5;
+  
+}
+
+
+
+
+	
+	
+#cssmenu li ul {
+  background: #222222;
+  display: none;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  position: absolute;
+  width: 225px;
+ z-index: 7;
+   
+  /*top:1em;
+	/*left:0;*/
+
+}
+#cssmenu li ul a {
+  display: block;
+  height: 35px;
+  font-size: 12px;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px 10px 0px 15px;
+  text-align: left;
+    z-index: 7;
+   
+}
+#cssmenu li ul a:hover,
+#cssmenu li ul li:hover > a {
+  
+  border: 0px;
+  color: #ffffff;
+  text-decoration: none;
+}
+#cssmenu ul ul { /* this targets all sub menus */
+    display: none; /* hide all sub menus from view */
+	    position: absolute;
+	    /* this should be the same height as the top level menu -- height + padding + borders */
+	}
+	#cssmenu ul ul li { /* this targets all submenu items */
+	    float: none; /* overwriting our float up above */
+	    width: 150px; /* set to the width you want your sub menus to be. This needs to match the value we set below */
+	}
+	#cssmenu ul ul li a { /* target all sub menu item links */
+	    padding: 5px 10px; /* give our sub menu links a nice button feel */
+	}
+#cssmenu ul li:hover > ul {
+    display: block; /* show sub menus when hovering over a parent */
+	}
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainmenu-right  ul li ul li a:hover{}
+.mainmenu-right ul{margin: 0;padding: 0;list-style: none}
+.mainmenu-right ul li{display: inline-block;
+line-height: 45px;
+max-width: 234px;
+padding-right: 10px;
+position: relative;}
+.mainmenu-right ul li:first-child{border-left: 0px solid}
+.mainmenu-right ul li:last-child{border-right: 0px solid}
+
+.mainmenu-right ul li a{color:  #BDBAB5;
+display: block;
+font-family: cursive;
+font-size: 13px;
+text-decoration: none;
+padding-right: 3px;padding-left: 3px
+
+}
+
+.mainmenu-right ul li a:hover{ border-color: #009ae1;}
+
+.slider{background: none repeat scroll 0 0 #F2F1EB;
+padding-top: 5px}
+.flex-caption {background:none; -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); zoom: 1;}
+.flex-caption { bottom: 35px; background-color: rgba(0, 0, 0, 0.8); color: #fff; margin: 0; padding: 25px 25px 25px 30px; position: absolute; right: 0; width: 295px;}
+.flex-caption h3 {color: #fff; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase;}
+.flex-caption p {margin: 0 0 15px;}
+   
+.main{background:#F2F1EB;margin-top: 5px}
+.head p{background: none repeat scroll 0 0 #3F3C30;
+
+padding: 10px;
+color: #740000;
+font-size: 26px;}
+.maincontent h3{border-bottom: 1px solid #d5d0c0;
+color: #d5d0c0;
+font-family: fantasy;
+margin-left: 20px;
+margin-right: 63px;
+margin-top: 24px;}
+.maincontent h4{margin-left: 20px;
+color: #002147;
+hover: #002147;
+font-family: arial;}
+.maincontent p{margin-left: 20px;
+font-family: icon;
+font-size: 16px;}
+.maincontent img{margin-left: 20px;margin-bottom: 10px
+}
+.footer{background:#00142B;padding-bottom: 35px;margin-bottom: 0px}
+.form-group{margin-bottom: 15px;
+width: 216px;
+margin-right: 27px;
+margin-left: 20px;}
+.button{margin-left: 20px}
+.btn-warning{width: 74px;
+background-color: #D72A25;border-color: #D72A25 }
+.social-icon{margin-left: 28px;
+margin-top: 67px;
+}
+.social-icon img{margin-right: -13px;}
+.social-shadow{margin-top: -10px;margin-left: 28px}
+.social-shadow img{margin-right: -13px;}
+.footer-main{background: #002147;background: none repeat scroll 0 0 #002147;
+margin-left: -110px;
+margin-right: -105px;
+padding: 7px;}
+.footer-main h2 {color: #fff;
+margin-left: 349px;}
+.footer-main h5{color: #fff;
+font-family: icon;
+font-size: 20px;
+margin-left: 468px;}
+
+
+
+
+
